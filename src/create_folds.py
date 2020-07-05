@@ -25,8 +25,3 @@ if __name__ ==" __main__":
     print(df.kfold.value_counts())                  # to check
     df.to_csv("..input/train_folds.csv", index = False) # putting back in input folder, no need of index column
     """we now have created folds"""
-
-
-
-
-
